@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<real>1</real>
+	<key>packages</key>
+	<array>
+		<dict>
+			<key>group_folder_name</key>
+			<string>emotionv5</string>
+			<key>group_name</key>
+			<string>emotion1.plist</string>
+		</dict>
+	</array>
+</dict>
+</plist>

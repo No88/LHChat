@@ -1,0 +1,36 @@
+//
+//  LHChatUI.pch
+//  LHChatUI
+//
+//  Created by lenhart on 2016/12/22.
+//  Copyright © 2016年 lenhart. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+frameAdjust.h"
+#import "LHConfig.h"
+#import "UIViewController+Set.h"
+#import "LHConst.h"
+#import "UIColor+RGB.h"
+#import "UIImage+Common.h"
+#import "UIView+Addtions.h"
+#endif
+
+#ifdef DEBUG
+#define DLog(s,...) NSLog(@"%s LINE:%d < %@ >",__FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__]);
+#define DMethod() NSLog(@"%s", __func__);
+#else
+#define DLog(...);
+#define DMethod();
+#endif
+
+#define RGB(A, B, C)    [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+

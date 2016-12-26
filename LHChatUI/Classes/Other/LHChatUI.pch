@@ -22,6 +22,7 @@
 #import "UIColor+RGB.h"
 #import "UIImage+Common.h"
 #import "UIView+Addtions.h"
+#import "UIButton+WebCache.h"
 #endif
 
 #ifdef DEBUG

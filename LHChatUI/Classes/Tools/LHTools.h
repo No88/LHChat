@@ -25,4 +25,13 @@
  */
 + (BOOL)photoLimit;
 
+
+/**
+ 时间处理
+
+ @param date 时间戳
+ @return 处理后的格式 yyyy/MM/dd HH:mm
+ */
++ (NSString *)processingTimeWithDate:(NSString *)date;
+
 @end

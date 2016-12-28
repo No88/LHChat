@@ -25,9 +25,9 @@
     _nameLabel.hidden = !messageModel.isChatGroup;
     NSString *imgaeName = nil;
     if (_messageModel.isSender) {
-        imgaeName = @"receive_head";
+        imgaeName = @"receive_head.jpg";
     } else {
-        imgaeName = @"send_head";
+        imgaeName = @"send_head.jpg";
     }
     self.headImageView.image = [UIImage imageNamed:imgaeName];
 }

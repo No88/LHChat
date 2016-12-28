@@ -10,4 +10,6 @@
 
 @interface LHChatImageBubbleView : LHChatBaseBubbleView
 
+@property (nonatomic, strong) UIImageView *imageView;
+
 @end

@@ -55,14 +55,16 @@ typedef enum {
 @property (nonatomic) BOOL isChatGroup;
 
 @property (nonatomic, assign) MessageBodyType type;
-@property (nonatomic) MessageDeliveryState status;
+@property (nonatomic, assign) MessageDeliveryState status;
 @property (nonatomic, strong) NSString *date;
+@property (nonatomic, strong) NSString *id;
 
 /** text */
 @property (nonatomic, strong) NSString *content;
 
 /** image */
-@property (nonatomic) CGSize size;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
 @property (nonatomic, strong) NSURL *imageRemoteURL;
 
 @end

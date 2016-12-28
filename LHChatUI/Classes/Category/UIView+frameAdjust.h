@@ -37,5 +37,7 @@
 - (CGFloat)right;
 - (void)setRight:(CGFloat)right;
 
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
 
 @end

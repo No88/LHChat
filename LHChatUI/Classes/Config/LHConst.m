@@ -7,6 +7,7 @@
 //
 
 CGFloat const kNavBarHeight = 64.0f;
+CGFloat const kTabBarHeight = 44;
 CGFloat const kChatBarHeight = 48.0f;
 
 CGFloat const kYYkitWidth = 250.f;
@@ -20,6 +21,7 @@ NSString *const kRouterEventChatResendEventName = @"kRouterEventChatResendEventN
 NSString *const kRouterEventTextURLTapEventName = @"kRouterEventTextURLTapEventName";
 NSString *const kRouterEventImageBubbleTapEventName = @"kRouterEventImageBubbleTapEventName";
 
+NSInteger kMessageCount = 20;
 
 #pragma mark - IM模块常量
 

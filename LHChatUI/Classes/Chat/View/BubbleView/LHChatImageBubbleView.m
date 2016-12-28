@@ -15,7 +15,7 @@ CGFloat const MAX_SIZE = 120.0f;
 
 @interface LHChatImageBubbleView ()
 
-@property (nonatomic, strong) UIImageView *imageView;
+
 
 @end
 
@@ -36,7 +36,7 @@ CGFloat const MAX_SIZE = 120.0f;
 
 
 - (CGSize)sizeThatFits:(CGSize)size {
-    CGSize retSize = self.messageModel.size;
+    CGSize retSize = CGSizeMake(self.messageModel.width, self.messageModel.height);//self.messageModel.size;
     if (retSize.width == 0 || retSize.height == 0) {
         retSize.width = MAX_SIZE;
         retSize.height = MAX_SIZE;
@@ -76,8 +76,14 @@ CGFloat const MAX_SIZE = 120.0f;
     [super setMessageModel:messageModel];
     
     UIImage *image = [UIImage imageNamed:@"IM_Chart_imageDownloadFail.png"];
+    [SDImageCache.sharedImageCache diskImageExistsWithKey:messageModel.date completion:^(BOOL isInCache) {
+        if (isInCache) {
+            [self.imageView sd_setImageWithURL:[NSURL URLWithString:messageModel.date] placeholderImage:image];
+        }
+    }];
+    /*
     if (messageModel.isSender) {
-        
+     
         if (messageModel.imageRemoteURL) {
             [SDImageCache.sharedImageCache diskImageExistsWithKey:messageModel.date completion:^(BOOL isInCache) {
                 if (isInCache) {
@@ -91,12 +97,13 @@ CGFloat const MAX_SIZE = 120.0f;
         }
         return;
     }
+     */
 }
 
 #pragma mark - public
 
 + (CGFloat)heightForBubbleWithObject:(LHMessageModel *)object {
-    CGSize retSize = object.size;
+    CGSize retSize = CGSizeMake(object.width, object.height);//object.size;
     if (retSize.width == 0 || retSize.height == 0) {
         retSize.width = MAX_SIZE;
         retSize.height = MAX_SIZE;

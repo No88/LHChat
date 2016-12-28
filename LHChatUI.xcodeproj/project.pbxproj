@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C501F9BA1E13AB200046E6C7 /* LHPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C501F9B91E13AB200046E6C7 /* LHPhotoPreviewController.m */; };
+		C501F9BD1E13AB510046E6C7 /* LHPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C501F9BC1E13AB510046E6C7 /* LHPhotoPreviewCell.m */; };
+		C501F9C01E13B4600046E6C7 /* XSBrowserAnimateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C501F9BF1E13B4600046E6C7 /* XSBrowserAnimateDelegate.m */; };
+		C501F9C31E13B4C60046E6C7 /* XSBrowserTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C501F9C21E13B4C60046E6C7 /* XSBrowserTransition.m */; };
+		C501F9C61E13CD7C0046E6C7 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C501F9C51E13CD7C0046E6C7 /* UIActionSheet+Blocks.m */; };
+		C501F9C81E13CE4F0046E6C7 /* icon_success_hite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C501F9C71E13CE4F0046E6C7 /* icon_success_hite@2x.png */; };
+		C5320D191E1241B1005341AF /* LHIMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5320D181E1241B1005341AF /* LHIMDBManager.m */; };
+		C53817531E12680000463137 /* NSCalendar+Establish.m in Sources */ = {isa = PBXBuildFile; fileRef = C53817501E12680000463137 /* NSCalendar+Establish.m */; };
+		C53817541E12680000463137 /* NSDate+Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = C53817521E12680000463137 /* NSDate+Judge.m */; };
+		C53817571E1269EB00463137 /* LHChatTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C53817561E1269EB00463137 /* LHChatTimeCell.m */; };
 		C5B8DE151E11007B00F5F2A3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8DE0A1E11007B00F5F2A3 /* FMDatabase.m */; };
 		C5B8DE161E11007B00F5F2A3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8DE0C1E11007B00F5F2A3 /* FMDatabaseAdditions.m */; };
 		C5B8DE171E11007B00F5F2A3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8DE0E1E11007B00F5F2A3 /* FMDatabasePool.m */; };
@@ -324,6 +334,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C501F9B81E13AB200046E6C7 /* LHPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPhotoPreviewController.h; sourceTree = "<group>"; };
+		C501F9B91E13AB200046E6C7 /* LHPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPhotoPreviewController.m; sourceTree = "<group>"; };
+		C501F9BB1E13AB510046E6C7 /* LHPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPhotoPreviewCell.h; sourceTree = "<group>"; };
+		C501F9BC1E13AB510046E6C7 /* LHPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPhotoPreviewCell.m; sourceTree = "<group>"; };
+		C501F9BE1E13B4600046E6C7 /* XSBrowserAnimateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSBrowserAnimateDelegate.h; sourceTree = "<group>"; };
+		C501F9BF1E13B4600046E6C7 /* XSBrowserAnimateDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSBrowserAnimateDelegate.m; sourceTree = "<group>"; };
+		C501F9C11E13B4C60046E6C7 /* XSBrowserTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSBrowserTransition.h; sourceTree = "<group>"; };
+		C501F9C21E13B4C60046E6C7 /* XSBrowserTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSBrowserTransition.m; sourceTree = "<group>"; };
+		C501F9C41E13CD7C0046E6C7 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		C501F9C51E13CD7C0046E6C7 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		C501F9C71E13CE4F0046E6C7 /* icon_success_hite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_success_hite@2x.png"; sourceTree = "<group>"; };
+		C5320D171E1241B1005341AF /* LHIMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHIMDBManager.h; sourceTree = "<group>"; };
+		C5320D181E1241B1005341AF /* LHIMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHIMDBManager.m; sourceTree = "<group>"; };
+		C5320D1A1E124217005341AF /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		C538174F1E12680000463137 /* NSCalendar+Establish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Establish.h"; sourceTree = "<group>"; };
+		C53817501E12680000463137 /* NSCalendar+Establish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Establish.m"; sourceTree = "<group>"; };
+		C53817511E12680000463137 /* NSDate+Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Judge.h"; sourceTree = "<group>"; };
+		C53817521E12680000463137 /* NSDate+Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Judge.m"; sourceTree = "<group>"; };
+		C53817551E1269EB00463137 /* LHChatTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHChatTimeCell.h; sourceTree = "<group>"; };
+		C53817561E1269EB00463137 /* LHChatTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHChatTimeCell.m; sourceTree = "<group>"; };
 		C5B8DE091E11007B00F5F2A3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		C5B8DE0A1E11007B00F5F2A3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		C5B8DE0B1E11007B00F5F2A3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -760,6 +790,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C501F9B61E13AAF80046E6C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C501F9B81E13AB200046E6C7 /* LHPhotoPreviewController.h */,
+				C501F9B91E13AB200046E6C7 /* LHPhotoPreviewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C501F9B71E13AAF80046E6C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C501F9BB1E13AB510046E6C7 /* LHPhotoPreviewCell.h */,
+				C501F9BC1E13AB510046E6C7 /* LHPhotoPreviewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5320D161E124181005341AF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5320D171E1241B1005341AF /* LHIMDBManager.h */,
+				C5320D181E1241B1005341AF /* LHIMDBManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		C5B8DE081E11007B00F5F2A3 /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
@@ -1197,6 +1254,8 @@
 				C5B8DE1C1E1100D000F5F2A3 /* LHChatViewBaseCell.m */,
 				C5B8DE301E110F0600F5F2A3 /* LHChatViewCell.h */,
 				C5B8DE311E110F0600F5F2A3 /* LHChatViewCell.m */,
+				C53817551E1269EB00463137 /* LHChatTimeCell.h */,
+				C53817561E1269EB00463137 /* LHChatTimeCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1246,6 +1305,7 @@
 				DAD675701E0BB5B000DEA0A5 /* main.m */,
 				DAD6755D1E0BAEDB00DEA0A5 /* AppDelegate.h */,
 				DAD6755E1E0BAEDB00DEA0A5 /* AppDelegate.m */,
+				C5320D1A1E124217005341AF /* Single.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -1253,6 +1313,13 @@
 		DAD675611E0BAEDB00DEA0A5 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C501F9C11E13B4C60046E6C7 /* XSBrowserTransition.h */,
+				C501F9C21E13B4C60046E6C7 /* XSBrowserTransition.m */,
+				C501F9BE1E13B4600046E6C7 /* XSBrowserAnimateDelegate.h */,
+				C501F9BF1E13B4600046E6C7 /* XSBrowserAnimateDelegate.m */,
+				C501F9B61E13AAF80046E6C7 /* Controller */,
+				C501F9B71E13AAF80046E6C7 /* View */,
+				C5320D161E124181005341AF /* Manager */,
 				DA6DBF971E0D133500FDB265 /* LHTools.h */,
 				DA6DBF981E0D133500FDB265 /* LHTools.m */,
 			);
@@ -1262,6 +1329,10 @@
 		DAD675651E0BAEE300DEA0A5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C538174F1E12680000463137 /* NSCalendar+Establish.h */,
+				C53817501E12680000463137 /* NSCalendar+Establish.m */,
+				C53817511E12680000463137 /* NSDate+Judge.h */,
+				C53817521E12680000463137 /* NSDate+Judge.m */,
 				DA6DBF9A1E0D148C00FDB265 /* UIView+Addtions.h */,
 				DA6DBF9B1E0D148C00FDB265 /* UIView+Addtions.m */,
 				DAD675661E0BAF3200DEA0A5 /* UIView+frameAdjust.h */,
@@ -1274,6 +1345,8 @@
 				DAD675831E0BC66600DEA0A5 /* UIImage+Common.m */,
 				C5B8DE241E1103D800F5F2A3 /* UIResponder+Router.h */,
 				C5B8DE251E1103D800F5F2A3 /* UIResponder+Router.m */,
+				C501F9C41E13CD7C0046E6C7 /* UIActionSheet+Blocks.h */,
+				C501F9C51E13CD7C0046E6C7 /* UIActionSheet+Blocks.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1291,6 +1364,7 @@
 		DAD675851E0BC71C00DEA0A5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C501F9C71E13CE4F0046E6C7 /* icon_success_hite@2x.png */,
 				C5B8DEB91E11176800F5F2A3 /* emotion3 */,
 				C5B8DE271E11065400F5F2A3 /* Chat */,
 				DA6DBF551E0CD4A500FDB265 /* ChatBar */,
@@ -1638,6 +1712,7 @@
 				C5B8DF071E11176800F5F2A3 /* C_109@2x.png in Resources */,
 				DAD676581E0BD3D400DEA0A5 /* B_12@2x.gif in Resources */,
 				DAD6764A1E0BD3D400DEA0A5 /* B_107@2x.gif in Resources */,
+				C501F9C81E13CE4F0046E6C7 /* icon_success_hite@2x.png in Resources */,
 				C5B8DF031E11176800F5F2A3 /* C_105@2x.png in Resources */,
 				DAD676971E0BD3D400DEA0A5 /* b_6@2x.gif in Resources */,
 				DAD6768E1E0BD3D400DEA0A5 /* B_61@2x.gif in Resources */,
@@ -1844,6 +1919,7 @@
 				C5B8DF7B1E1123E300F5F2A3 /* UIImage+WebP.m in Sources */,
 				C5B8DF711E1123E300F5F2A3 /* SDImageCacheConfig.m in Sources */,
 				C5B8DF781E1123E300F5F2A3 /* UIButton+WebCache.m in Sources */,
+				C53817541E12680000463137 /* NSDate+Judge.m in Sources */,
 				C5B8DEA21E11161700F5F2A3 /* YYTextDebugOption.m in Sources */,
 				DA6DBF951E0D12BC00FDB265 /* TZVideoPlayerController.m in Sources */,
 				DA6DBF8D1E0D12BC00FDB265 /* TZAssetCell.m in Sources */,
@@ -1852,13 +1928,16 @@
 				C5B8DEAE1E11161700F5F2A3 /* YYTextRunDelegate.m in Sources */,
 				C5B8DF6F1E1123E300F5F2A3 /* NSImage+WebCache.m in Sources */,
 				C5B8DEB41E11161700F5F2A3 /* YYTextTransaction.m in Sources */,
+				C501F9BD1E13AB510046E6C7 /* LHPhotoPreviewCell.m in Sources */,
 				C5B8DE391E1112C600F5F2A3 /* LHChatTextBubbleView.m in Sources */,
 				DA6DBF9C1E0D148C00FDB265 /* UIView+Addtions.m in Sources */,
 				C5B8DE261E1103D800F5F2A3 /* UIResponder+Router.m in Sources */,
+				C53817571E1269EB00463137 /* LHChatTimeCell.m in Sources */,
 				DA6DBF8C1E0D12BC00FDB265 /* NSBundle+TZImagePicker.m in Sources */,
 				DAD676D91E0BD41100DEA0A5 /* KeyboardEmojiModel.m in Sources */,
 				C5B8DE3F1E1112E500F5F2A3 /* LHChatAudioBubbleView.m in Sources */,
 				C5B8DE3C1E1112D500F5F2A3 /* LHChatImageBubbleView.m in Sources */,
+				C501F9C31E13B4C60046E6C7 /* XSBrowserTransition.m in Sources */,
 				C5B8DE151E11007B00F5F2A3 /* FMDatabase.m in Sources */,
 				DA6DBF961E0D12BC00FDB265 /* UIView+Layout.m in Sources */,
 				DA6DBF8F1E0D12BC00FDB265 /* TZImageManager.m in Sources */,
@@ -1874,8 +1953,11 @@
 				C5B8DEA31E11161700F5F2A3 /* YYTextEffectWindow.m in Sources */,
 				C5B8DEA41E11161700F5F2A3 /* YYTextInput.m in Sources */,
 				C5B8DF791E1123E300F5F2A3 /* UIImage+GIF.m in Sources */,
+				C501F9BA1E13AB200046E6C7 /* LHPhotoPreviewController.m in Sources */,
+				C501F9C61E13CD7C0046E6C7 /* UIActionSheet+Blocks.m in Sources */,
 				DAD676DC1E0BD41100DEA0A5 /* KeyboardEmojiTextView.m in Sources */,
 				C5B8DE961E11161700F5F2A3 /* NSBundle+YYAdd.m in Sources */,
+				C501F9C01E13B4600046E6C7 /* XSBrowserAnimateDelegate.m in Sources */,
 				DAD675921E0BD20300DEA0A5 /* LHChatBarView.m in Sources */,
 				C5B8DE361E11127A00F5F2A3 /* LHChatBaseBubbleView.m in Sources */,
 				C5B8DEA01E11161700F5F2A3 /* YYSpriteSheetImage.m in Sources */,
@@ -1896,8 +1978,10 @@
 				C5B8DEAC1E11161700F5F2A3 /* YYTextParser.m in Sources */,
 				C5B8DF7E1E1123E300F5F2A3 /* UIView+WebCache.m in Sources */,
 				DAD675681E0BAF3200DEA0A5 /* UIView+frameAdjust.m in Sources */,
+				C53817531E12680000463137 /* NSCalendar+Establish.m in Sources */,
 				C5B8DE201E11010100F5F2A3 /* LHMessageModel.m in Sources */,
 				DAD675721E0BB5BB00DEA0A5 /* main.m in Sources */,
+				C5320D191E1241B1005341AF /* LHIMDBManager.m in Sources */,
 				C5B8DEAD1E11161700F5F2A3 /* YYTextRubyAnnotation.m in Sources */,
 				C5B8DF6E1E1123E300F5F2A3 /* NSData+ImageContentType.m in Sources */,
 				C5B8DF7A1E1123E300F5F2A3 /* UIImage+MultiFormat.m in Sources */,

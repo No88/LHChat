@@ -103,7 +103,7 @@ CGFloat const kChatBatItemWH = 26.0f;
     [UIView animateWithDuration:_animationDuration delay:0 options:(_animationCurve << 16 | UIViewAnimationOptionBeginFromCurrentState) animations:^{
         // 修改frame
         self.y = SCREEN_H - self.height - _keyboardHeight;
-        _tableView.height = self.y;
+        _tableView.height = self.y - kNavBarHeight;
 //        [_conversationChatVC scrollToBottomAnimated:NO refresh:NO];
     } completion:nil];
     
@@ -145,7 +145,7 @@ CGFloat const kChatBatItemWH = 26.0f;
     
     [UIView animateWithDuration:duration delay:0 options:(curve << 16 | UIViewAnimationOptionBeginFromCurrentState) animations:^{
         self.y = SCREEN_H - self.height;
-        _tableView.height = self.y;
+        _tableView.height = self.y - kNavBarHeight;
     } completion:nil];
 }
 
@@ -169,7 +169,7 @@ CGFloat const kChatBatItemWH = 26.0f;
         // 添加动画
         [UIView animateWithDuration:0.25 animations:^{
             self.y = SCREEN_H - kChatEmojiHeight - self.height;
-            _tableView.height = self.y;
+            _tableView.height = self.y - kNavBarHeight;
             
             emojiView.y = SCREEN_H - kChatEmojiHeight;
         }];
@@ -192,7 +192,7 @@ CGFloat const kChatBatItemWH = 26.0f;
             // 添加动画
             [UIView animateWithDuration:0.25 animations:^{
                 self.y = SCREEN_H - kChatEmojiHeight - self.height;
-                _tableView.height = self.y;
+                _tableView.height = self.y - kNavBarHeight;
                 
                 emojiView.y = SCREEN_H - kChatEmojiHeight;
                 // 4.把消息现在在顶部
@@ -229,7 +229,7 @@ CGFloat const kChatBatItemWH = 26.0f;
         // 添加动画
         [UIView animateWithDuration:0.25 animations:^{
             self.y = SCREEN_H - kChatMoreHeight - self.height;
-            _tableView.height = self.y;
+            _tableView.height = self.y - kNavBarHeight;
             moreView.y = SCREEN_H - kChatMoreHeight;
         }];
         
@@ -250,7 +250,7 @@ CGFloat const kChatBatItemWH = 26.0f;
             // 添加动画
             [UIView animateWithDuration:0.25 animations:^{
                 self.y = SCREEN_H - kChatMoreHeight - self.height;
-                _tableView.height = self.y;
+                _tableView.height = self.y - kNavBarHeight;
                 
                 moreView.y = SCREEN_H - kChatMoreHeight;
                 // 4.把消息现在在顶部
@@ -275,7 +275,7 @@ CGFloat const kChatBatItemWH = 26.0f;
             self.emojiView.y = SCREEN_H;
         }
         self.y = SCREEN_H - self.height;
-        _tableView.height = self.y;
+        _tableView.height = self.y - kNavBarHeight;
     } completion:^(BOOL finished) {
     }];
     self.moreBtn.selected = NO;
@@ -296,7 +296,7 @@ CGFloat const kChatBatItemWH = 26.0f;
             keyboardHeight = kChatEmojiHeight;
         }
         self.y = SCREEN_H - self.height - keyboardHeight;
-        _tableView.height = self.y;
+        _tableView.height = self.y - kNavBarHeight;
         [self layoutIfNeeded];
     } completion:^(BOOL finished) {
         if (!finished) return;
@@ -405,7 +405,7 @@ CGFloat const kChatBatItemWH = 26.0f;
         }
         
         self.y = SCREEN_H - self.height - keyboardHeight;
-        _tableView.height = self.y;
+        _tableView.height = self.y - kNavBarHeight;
         [self layoutIfNeeded];
     } completion:nil];
 }
@@ -425,6 +425,7 @@ CGFloat const kChatBatItemWH = 26.0f;
         // 判断按了return(send) 调用发送内容的方法
         if ([text isEqualToString:@"\n"]) {
             !self.sendContent ? : self.sendContent(self.contentModel);
+            [self resetState];
             return NO;
         }
         return YES;

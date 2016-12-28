@@ -7,6 +7,7 @@
 //
 
 extern CGFloat const kNavBarHeight;
+extern CGFloat const kTabBarHeight;
 extern CGFloat const kChatBarHeight;
 
 extern CGFloat const kYYkitWidth;
@@ -18,6 +19,8 @@ extern NSString *const kRouterEventChatCellBubbleTapEventName;
 extern NSString *const kRouterEventChatHeadImageTapEventName;
 extern NSString *const kRouterEventTextURLTapEventName;
 extern NSString *const kRouterEventImageBubbleTapEventName;
+
+extern NSInteger kMessageCount;
 
 #pragma mark - IM模块常量
  // 头像大小
